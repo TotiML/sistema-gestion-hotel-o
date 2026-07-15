@@ -36,19 +36,27 @@ if (!isset($_SESSION['idUsuario'])) {
             <h1>Panel de Control</h1>
             <p class="lead">Desde aquí gestionaremos las habitaciones, huéspedes, reservas y facturación.</p>
             <div class="row mt-4">
-    <div class="col-md-4">
-        <div class="card text-center shadow-sm mb-4">
+    <div class="row mt-4">
+    <div class="col-md-4 mb-4">
+        <div class="card text-center shadow-sm">
             <div class="card-body">
                 <h5 class="card-title">Habitaciones</h5>
                 <p class="card-text">Gestiona los cuartos, precios y disponibilidad.</p>
-                <a href="habitaciones.php" class="btn btn-primary">Ir a Habitaciones</a>
+                <a href="habitaciones.php" class="btn btn-primary w-100">Ir a Habitaciones</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-4 mb-4">
+        <div class="card text-center shadow-sm">
+            <div class="card-body">
+                <h5 class="card-title">Huéspedes</h5>
+                <p class="card-text">Administra la base de datos de clientes del hotel.</p>
+                <a href="huespedes.php" class="btn btn-success w-100">Ir a Huéspedes</a>
             </div>
         </div>
     </div>
     </div>
-        </div>
-    </div>
-</div>
 
 </body>
 </html>
