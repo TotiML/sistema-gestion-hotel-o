@@ -37,57 +37,6 @@ if (!isset($_SESSION['idUsuario'])) {
             <p class="lead">Desde aquí gestionaremos las habitaciones, huéspedes, reservas y facturación.</p>
             <div class="row mt-4">
     <div class="row mt-4">
-    <div class="col-md-4 mb-4">
-        <div class="card text-center shadow-sm">
-            <div class="card-body">
-                <h5 class="card-title">Habitaciones</h5>
-                <p class="card-text">Gestiona los cuartos, precios y disponibilidad.</p>
-                <a href="habitaciones.php" class="btn btn-primary w-100">Ir a Habitaciones</a>
-            </div>
-        </div>
-    </div>
-    
-    <div class="col-md-4 mb-4">
-        <div class="card text-center shadow-sm">
-            <div class="card-body">
-                <h5 class="card-title">Huéspedes</h5>
-                <p class="card-text">Administra la base de datos de clientes del hotel.</p>
-                <a href="huespedes.php" class="btn btn-success w-100">Ir a Huéspedes</a>
-            </div>
-        </div>
-    </div>
-
-    <div class="col-md-4 mb-4">
-        <div class="card text-center shadow-sm">
-            <div class="card-body">
-                <h5 class="card-title">Reservas</h5>
-                <p class="card-text">Registra y controla las fechas de estadía de los clientes.</p>
-                <a href="reservas.php" class="btn btn-warning w-100 text-dark fw-bold">Ir a Reservas</a>
-            </div>
-        </div>
-    </div>
-
-    <div class="col-md-4 mb-4">
-        <div class="card text-center shadow-sm">
-            <div class="card-body">
-                <h5 class="card-title">Check-In</h5>
-                <p class="card-text">Registra la llegada de los huéspedes y activa sus reservas.</p>
-                <a href="checkin.php" class="btn btn-info w-100 text-white fw-bold">Ir a Check-In</a>
-            </div>
-        </div>
-    </div>
-
-    <div class="col-md-4 mb-4">
-        <div class="card text-center shadow-sm border-danger">
-            <div class="card-body">
-                <h5 class="card-title text-danger">Check-Out y Facturación</h5>
-                <p class="card-text">Calcula el cobro, registra la salida y libera la habitación.</p>
-                <a href="checkout.php" class="btn btn-outline-danger w-100 fw-bold">Ir a Check-Out</a>
-            </div>
-        </div>
-    </div>
-
-    <div class="row mt-4">
     <div class="col-md-3 mb-4">
         <div class="card text-center shadow-sm h-100">
             <div class="card-body d-flex flex-column justify-content-between">
