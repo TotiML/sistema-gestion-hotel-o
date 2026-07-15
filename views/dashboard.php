@@ -56,6 +56,16 @@ if (!isset($_SESSION['idUsuario'])) {
             </div>
         </div>
     </div>
+
+    <div class="col-md-4 mb-4">
+        <div class="card text-center shadow-sm">
+            <div class="card-body">
+                <h5 class="card-title">Reservas</h5>
+                <p class="card-text">Registra y controla las fechas de estadía de los clientes.</p>
+                <a href="reservas.php" class="btn btn-warning w-100 text-dark fw-bold">Ir a Reservas</a>
+            </div>
+        </div>
+    </div>
     </div>
 
 </body>
