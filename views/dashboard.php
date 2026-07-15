@@ -66,6 +66,16 @@ if (!isset($_SESSION['idUsuario'])) {
             </div>
         </div>
     </div>
+
+    <div class="col-md-4 mb-4">
+        <div class="card text-center shadow-sm">
+            <div class="card-body">
+                <h5 class="card-title">Check-In</h5>
+                <p class="card-text">Registra la llegada de los huéspedes y activa sus reservas.</p>
+                <a href="checkin.php" class="btn btn-info w-100 text-white fw-bold">Ir a Check-In</a>
+            </div>
+        </div>
+    </div>
     </div>
 
 </body>
