@@ -76,6 +76,16 @@ if (!isset($_SESSION['idUsuario'])) {
             </div>
         </div>
     </div>
+
+    <div class="col-md-4 mb-4">
+        <div class="card text-center shadow-sm border-danger">
+            <div class="card-body">
+                <h5 class="card-title text-danger">Check-Out y Facturación</h5>
+                <p class="card-text">Calcula el cobro, registra la salida y libera la habitación.</p>
+                <a href="checkout.php" class="btn btn-outline-danger w-100 fw-bold">Ir a Check-Out</a>
+            </div>
+        </div>
+    </div>
     </div>
 
 </body>
